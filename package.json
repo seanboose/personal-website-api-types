@@ -1,6 +1,6 @@
 {
   "name": "@seanboose/personal-website-api-types",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "oapi schema and types for personal website frontend and backend",
   "license": "MIT",
   "author": "",
@@ -15,9 +15,9 @@
   ],
   "exports": {
     ".": {
-    "import": "./dist/index.esm.js",
-    "require": "./dist/index.cjs.js",
-    "types": "./dist/index.d.ts"
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "repository": {
