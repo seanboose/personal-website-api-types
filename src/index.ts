@@ -1,4 +1,4 @@
-export interface ImageDetails {
+export interface ImageData {
   fileName: string;
   url: string;
 }
