@@ -1,3 +1,4 @@
-export interface TestType {
-  name: string;
+export interface ImageDetails {
+  fileName: string;
+  url: string;
 }
