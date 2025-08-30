@@ -12,8 +12,9 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+    "import": "./dist/index.esm.js",
+    "require": "./dist/index.cjs.js",
+    "types": "./dist/index.d.ts"
     }
   },
   "repository": {
@@ -24,7 +25,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "build": "tsc && cp src/index.js dist/index.js"
+    "build": "tsc && cp src/index.esm.js dist/index.esm.js && cp src/index.cjs.js dist/index.cjs.js"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
