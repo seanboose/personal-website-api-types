@@ -5,10 +5,13 @@
   "license": "MIT",
   "author": "",
   "type": "commonjs",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "package.json",
+    "README.md"
   ],
   "exports": {
     ".": {
