@@ -5,8 +5,8 @@
   "license": "MIT",
   "author": "",
   "type": "commonjs",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
@@ -15,8 +15,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.esm.js",
-      "require": "./dist/index.cjs.js",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
     }
   },
@@ -28,7 +28,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "build": "tsc && cp src/index.esm.js dist/index.esm.js && cp src/index.cjs.js dist/index.cjs.js"
+    "build": "tsc && cp src/index.mjs dist/index.mjs && cp src/index.cjs dist/index.cjs"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
