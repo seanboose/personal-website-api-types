@@ -1,6 +1,6 @@
 {
   "name": "@seanboose/personal-website-api-types",
-  "version": "1.0.10-jwt-refresh-2",
+  "version": "1.0.10-jwt-refresh-3",
   "description": "oapi schema and types for personal website frontend and backend",
   "license": "MIT",
   "author": "",
