@@ -17,3 +17,5 @@ export const authErrors = {
   refreshTokenExpired: "REFRESH_TOKEN_EXPIRED",
   refreshTokenInvalid: "REFRESH_TOKEN_INVALID"
 };
+
+// TODO merge api-types changes into master once done
