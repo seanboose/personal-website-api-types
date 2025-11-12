@@ -1,5 +1,5 @@
-import { z } from "zod";
-import { ApiError } from "./errors";
+import { z } from 'zod';
+import { ApiError } from './errors';
 export declare const AuthenticatedRequestHeadersSchema: z.ZodObject<{
     authorization: z.ZodPipe<z.ZodString, z.ZodTransform<string, string>>;
 }, z.core.$strip>;

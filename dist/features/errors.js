@@ -14,20 +14,20 @@ class ApiError extends Error {
         return {
             statusCode: this.statusCode,
             errorType: this.errorType,
-            message: this.message
+            message: this.message,
         };
     }
 }
 exports.ApiError = ApiError;
 class UnexpectedError extends ApiError {
-    constructor(message = "Something went wrong") {
-        super(500, "INTERNAL_SERVER_ERROR", message);
+    constructor(message = 'Something went wrong') {
+        super(500, 'INTERNAL_SERVER_ERROR', message);
     }
 }
 exports.UnexpectedError = UnexpectedError;
 class ValidationError extends ApiError {
-    constructor(message = "Error occurred during schema validation") {
-        super(400, "VALIDATION_ERROR", message);
+    constructor(message = 'Error occurred during schema validation') {
+        super(400, 'VALIDATION_ERROR', message);
     }
 }
 exports.ValidationError = ValidationError;
