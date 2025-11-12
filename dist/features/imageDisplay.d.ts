@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from 'zod';
 export declare const ImageDataSchema: z.ZodObject<{
     fileName: z.ZodString;
     url: z.ZodURL;
